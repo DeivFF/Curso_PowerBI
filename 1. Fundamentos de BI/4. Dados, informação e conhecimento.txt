@@ -1,0 +1,30 @@
+Ao longo da história, a humanidade sempre lidou com dados e buscou armazenar resultados de diversas formas. Desde a era dos coliformes, em que utilizávamos cerâmica para inscrições cuneiformes, até os dias atuais, essa jornada evolutiva se entrelaça com a prática do storytelling. Contar histórias, uma prática antiga, é uma maneira eficaz de transmitir conhecimento, uma tradição enraizada na evolução humana.
+
+O storytelling tem sua eficácia enraizada na nossa história evolutiva. Quando os mais velhos contavam histórias, não apenas transmitiam conhecimento, mas também valores e ensinamentos. Esse método envolvente ativava partes do cérebro relacionadas aos sentidos e à ansiedade, um elemento que contribui para a retenção da informação.
+
+Ao contar uma história, acionamos não apenas o raciocínio, mas também as emoções e a capacidade de criar conexões. Isso se deve à associação histórica entre narrativas e aprendizado, uma prática que remonta a séculos.
+
+No contexto atual, ao lidarmos com computadores e grandes volumes de dados, a eficácia do storytelling persiste. Contar uma história sobre dados, estatísticas ou resultados permite uma compreensão mais fácil por parte dos ouvintes, seja na esfera das vendas, estratégias de marketing ou tomada de decisões.
+
+O ciclo de dados, informação e conhecimento desempenha um papel crucial. Os dados, inicialmente brutos e desorganizados, passam por um processo de limpeza e transformação para se tornarem informações valiosas. Essas informações, quando contextualizadas e compreendidas, geram conhecimento.
+
+A inteligência, por sua vez, surge da capacidade de utilizar esse conhecimento para resolver problemas e tomar decisões informadas. A interconexão entre conhecimento e inteligência é evidente, formando uma cadeia na qual um elemento depende do outro para gerar valor.
+
+Assim, a história evolutiva da humanidade, a prática do storytelling e a inter-relação entre dados, informação, conhecimento e inteligência destacam-se como elementos fundamentais na compreensão e aplicação eficaz da vasta quantidade de informações disponíveis na era digital.
+
+
+Um exemplo prático de inteligência, ou seja, tomada de decisão a partir da informação:
+
+Imagine uma empresa de comércio eletrônico que utiliza análise de dados para melhorar sua estratégia de marketing. Ao coletar dados sobre o comportamento de compra dos clientes, a empresa percebe um padrão interessante: clientes que compram determinado produto frequentemente também buscam por um produto complementar.
+
+Com base nessa observação, a empresa decide criar campanhas personalizadas, sugerindo produtos complementares durante o processo de compra. Além disso, ajusta dinamicamente os preços desses produtos complementares para oferecer descontos atrativos quando comprados juntos.
+
+Exemplo do fluxo de dados:
+
+Dado: Imagine que uma empresa de análise de tráfego de websites coleta dados brutos sobre o comportamento dos usuários em uma loja online. Esses dados incluem informações como páginas visitadas, tempo gasto em cada página e produtos visualizados.
+
+Informação: Ao processar e organizar esses dados, a empresa identifica padrões, como um aumento significativo no tráfego em determinada página durante os fins de semana. Essa correlação é uma informação valiosa derivada dos dados brutos.
+
+Conhecimento: Com base na informação coletada, a empresa compreende que o aumento no tráfego aos fins de semana está relacionado a campanhas promocionais específicas que são lançadas nesses dias. Esse entendimento mais profundo do contexto representa o conhecimento adquirido.
+
+Inteligência: Utilizando o conhecimento sobre o comportamento dos usuários nos fins de semana, a empresa decide lançar campanhas promocionais mais direcionadas e ajustar a disponibilidade de suporte ao cliente durante esses períodos. Isso reflete a aplicação da inteligência, pois a empresa adapta suas estratégias com base no conhecimento adquirido, buscando otimizar o engajamento do usuário e as oportunidades de venda.

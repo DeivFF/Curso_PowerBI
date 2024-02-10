@@ -1,0 +1,15 @@
+ETL é uma sigla que se refere ao processo de Extração, Transformação e Carga de dados. Esse processo é fundamental no campo da gestão de dados e business intelligence para mover, limpar, transformar e carregar informações de uma fonte para um destino, geralmente em um armazém de dados ou data warehouse.
+
+Aqui está uma breve explicação de cada etapa do processo ETL:
+
+Extração (Extraction): Nesta fase, os dados são coletados a partir de várias fontes, como bancos de dados, planilhas, arquivos de texto, APIs (interfaces de programação de aplicativos), entre outros. A extração pode envolver a recuperação de dados brutos ou processados.
+
+Transformação (Transformation): Os dados extraídos muitas vezes não estão no formato ideal para análise ou relatórios. A etapa de transformação envolve a aplicação de regras, limpeza e manipulação nos dados extraídos para torná-los adequados para a análise. Isso pode incluir a remoção de dados duplicados, a conversão de formatos, a correção de erros e a criação de agregações.
+
+Carga (Load): Na fase de carga, os dados transformados são carregados em um data warehouse ou outro destino. Isso geralmente envolve a organização dos dados em tabelas e a estruturação conforme necessário para suportar consultas eficientes e análises posteriores.
+
+O processo ETL é crucial para garantir que as organizações possam acessar dados de maneira eficiente, transformá-los em informações significativas e armazená-los de forma otimizada para análises futuras. Essa abordagem é particularmente relevante em ambientes onde os dados são provenientes de diferentes fontes e precisam ser consolidados para análises de negócios abrangentes.
+
+Processo fundamental nas operações de dados, o ETL possibilitou a centralização de informações de fontes distintas em um único local, facilitando a extração de insights poderosos de negócio e a tomada de decisão.
+
+Apesar disso, esse processo tradicional foi construído para atender a demandas de gerenciamento de dados de outras épocas e, por isso, conta com limitações nos quesitos de armazenamento de dados e disponibilidade deles.

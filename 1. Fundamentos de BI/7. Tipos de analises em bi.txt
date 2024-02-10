@@ -1,0 +1,27 @@
+Dentro do campo da análise de dados, tanto em Business Intelligence (BI) quanto em Ciência de Dados, encontramos quatro tipos principais de análises: descritiva, diagnóstica, preditiva e prescritiva. Cada uma dessas análises desempenha um papel específico na compreensão e no aproveitamento dos dados. Vamos explorar cada uma delas de maneira sucinta.
+
+Análise Descritiva:
+
+Objetivo: Caracterizar e sumarizar um contexto, fornecendo uma visão geral dos dados.
+Aplicação: Entender o comportamento dos dados, realizar uma primeira abordagem para descrever e categorizar.
+
+Análise Diagnóstica:
+
+Objetivo: Encontrar relações de causa e efeito nos dados, realizando um diagnóstico.
+Aplicação: Similar à análise médica, entender por que algo ocorreu com base em exames e dados anteriores.
+
+Análise Preditiva:
+
+Objetivo: Prever tendências e eventos futuros, utilizando análises probabilísticas.
+Aplicação: Antecipar comportamentos futuros, como prever vendas do próximo mês com base em padrões históricos.
+
+Análise Prescritiva:
+
+Objetivo: Oferecer subsídios para resolver problemas identificados, prescrevendo soluções.
+Aplicação: Tomar decisões proativas para otimizar processos, aumentar a produtividade ou reverter cenários desfavoráveis.
+
+Ao considerar esses tipos de análise, é crucial entender que, enquanto descritiva e diagnóstica são abordagens mais tradicionais, a análise preditiva e prescritiva envolvem uma perspectiva mais voltada para o futuro. Essa distinção é fundamental para compreender a interseção entre BI e Ciência de Dados, onde o BI pode ser visto como uma subárea da Ciência de Dados.
+
+No contexto do BI, a aplicação dessas análises envolve a coleta e estruturação de dados, seguida pela análise visual para representar as informações de maneira compreensível. Respeitar o processo de negócio, identificar problemas específicos, e entender o contexto são passos essenciais antes de aplicar modelos ou métricas.
+
+Em resumo, ao explorar as análises em BI e Ciência de Dados, é crucial compreender o propósito de cada tipo e aplicá-las de maneira coerente com o cenário de negócios. A análise descritiva foca no "o que aconteceu", a diagnóstica no "por que aconteceu", a preditiva no "o que vai acontecer", e a prescritiva no "o que eu vou fazer".

@@ -1,0 +1,31 @@
+O paradigma do Big Data trouxe mudanças significativas na forma como lidamos com dados, impulsionado pelo aumento exponencial em volume, velocidade e variedade de informações geradas. Vamos explorar como o Big Data influencia a análise de dados, destacando diferenças em relação aos dados tradicionais.
+
+Volume, Velocidade, Variedade e Veracidade:
+
+Volume: Big Data lida com enormes conjuntos de dados, ultrapassando a capacidade dos métodos tradicionais.
+Velocidade: A geração e atualização rápida dos dados exigem processamento em tempo real para insights ágeis.
+Variedade: Diversidade de dados, incluindo formatos não estruturados, como texto, vídeo e imagens.
+Veracidade: A necessidade de garantir a precisão e confiabilidade dos dados, mesmo em ambientes heterogêneos.
+
+Dados Tradicionais vs. Não Estruturados:
+
+Dados Tradicionais: Estruturados em tabelas relacionais, com formatos bem definidos e relacionamentos claros. Consultas realizadas por meio de SQL.
+Dados Não Estruturados: Originados de fontes heterogêneas, como logs de eventos, redes sociais e dispositivos inteligentes. Podem incluir texto, imagens e vídeos sem uma estrutura rígida.
+
+Data Warehouse vs. Data Lake:
+
+Data Warehouse: Armazena dados estruturados de forma centralizada, com foco em consultas analíticas tradicionais.
+Data Lake: Lida com dados não estruturados e semi-estruturados, preservando sua diversidade e permitindo análises mais amplas.
+
+Processamento de Dados:
+
+Ferramentas como Spark e Hadoop: Essenciais para processar grandes volumes de dados em ambientes distribuídos.
+ETL (Extração, Transformação, Carregamento): Enfrenta desafios específicos ao lidar com dados não estruturados, requerendo adaptações nos métodos tradicionais.
+Análise Visual e Ferramentas:
+
+Power BI e Integração com Hadoop: Capacidade de integrar dados de ambientes Big Data ao processo de análise e visualização.
+Consistência na Análise: Mesmos tipos de análises e perguntas podem ser aplicados, mas a fonte e o processamento dos dados variam.
+Desafios e Oportunidades:
+
+Coleta e Limpeza de Dados: Desafios aumentados devido à variedade e velocidade dos dados.
+Análise Preditiva e Prescritiva: Maior potencial com a riqueza de dados disponíveis, permitindo insights avançados.

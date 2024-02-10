@@ -1,0 +1,19 @@
+O objetivo fundamental do estudo sobre dados, informação, conhecimento e inteligência é extrair insights e embasar a tomada de decisões. Dentro desse escopo, há um 
+fluxo de dados que se inicia com informações brutas e sem valor, transformando-as em conhecimento por meio da inteligência aplicada. 
+
+O foco central de um analista de Business Intelligence (BI) é realizar análise de dados e gerenciamento de informações, contribuindo para as estratégias da empresa.
+
+A definição formal de BI abrange as estratégias e tecnologias empregadas para análise de dados e gestão de informações. No cerne desse processo, cientistas de dados, analistas e engenheiros desempenham papéis distintos, e é essencial compreender suas diferenças.
+
+Em comparação com os perfis de engenheiro de dados e cientista de dados, o analista de BI se destaca por um foco mais próximo dos aspectos de negócios. A principal
+diferença reside nos detalhes dos processos de Extração, Transformação e Carga (ETL), bem como nas ferramentas utilizadas. Enquanto um analista de BI frequentemente recorre a ferramentas como Power BI para extração e transformação de dados, um analista de dados pode empregar linguagens mais estatísticas, como R, ou linguagens versáteis como Python, com diversas bibliotecas disponíveis.
+
+A distinção entre um analista de BI e um analista de dados muitas vezes repousa no nível de detalhamento técnico e na proximidade com as áreas de negócios ou tecnologia da informação (TI). O analista de BI atua como um intermediário, possuindo conhecimentos tanto em estratégias de negócios quanto em ferramentas analíticas.
+
+Assim, enquanto o cientista de dados tem uma perspectiva mais voltada para o futuro e a aplicação de técnicas avançadas, o analista de BI ocupa uma posição central, agindo como elo entre as estratégias de negócios e a análise de dados, apresentando, assim, um panorama abrangente das ferramentas de BI.
+
+
+
+
+
+

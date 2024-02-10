@@ -1,0 +1,17 @@
+Quando a abordagem de ETL foi criada, o armazenamento de dados em repositórios era muito caro. Além disso, o processamento dessas informações era extremamente lento e, por isso, pouquíssimas organizações podiam investir nessas tecnologias.
+
+Ocorre que essa realidade mudou com a computação na nuvem. Hoje, o que era lento tornou-se rápido, e o que era caro tornou-se acessível.
+
+Dessa forma, considerando o volume massivo de dados para processamento nas operações modernas, muitas empresas têm optado pelo ELT ao invés do tradicional ETL (extract-transform-load), buscando mais flexibilidade e agilidade nos seus pipelines de dados.
+
+Ao usar o ELT, é possível analisar grandes volumes de dados de forma rápida, com menos manutenção e gastos de recursos.
+
+Além disso, com a inversão das etapas no processo, os engenheiros de dados ficam focados na parte da extração e do carregamento de dados, enquanto os analistas e engenheiros de analytics podem contribuir na transformação de dados, trazendo a perspectiva de profissionais que estão próximos ao negócio e sabem quais indicadores e métricas fazem a diferença no business.
+
+Como resultado, a abordagem ELT possibilita mais colaboração entre times de negócios e profissionais técnicos, possibilitando operações de dados mais eficientes.
+
+Por isso, ainda que a implementação de um processo ELT seja mais complexa, exigindo mais esforços nos quesitos de design e infraestrutura do que o ETL, a primeira oferece mais vantagens no longo prazo.
+
+Além disso, o ELT leva menos tempo no carregamento e na transformação de dados e, por isso, é mais econômico.
+
+No entanto, caso o repositório de dados de destino não seja robusto para comportar um volume massivo de dados, o processo de ETL pode ser uma opção mais viável.

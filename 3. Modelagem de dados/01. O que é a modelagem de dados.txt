@@ -1,0 +1,42 @@
+Modelagem de dados é o ato de explorar estruturas orientadas a dados. Como outros
+artefatos de modelagem, modelos de dados podem ser usados para uma variedade de
+propósitos, desde modelos conceituais de alto nível até modelos físicos de dados.
+
+As aplicações que giram em torno do banco de dados relacionais possuem conceitos
+básicos sobre a modelagem de dados. Por isso, seja muito simples ou mais complexo, a correta
+modelagem é necessária para tornar uma aplicação mais robusta e eficiente.
+
+Os modelos de dados são ferramentas que permitem demonstrar como serão construídas
+as estruturas de dados que darão suporte aos processos de negócios, como os dados estarão
+organizados e quais os relacionamentos que pretendemos estabelecer entre eles.
+
+Esses modelos se dividem em 3 perspectivas:
+
+Conceitual: como representação de alto nível e com foco no ponto de vista do usuário
+criador dos dados. É sempre o primeiro modelo a ser desenvolvido e muito fácil de ser
+compreendido, pois não há limitações ou tecnologias específicas.
+
+Lógica: agrega detalhes de implementação e leva em conta as regras e algumas limitações
+de recursos padronizados. Aqui é possível definir atributos que serão as chaves para a estrutura.
+
+Física: demonstra os dados fisicamente e leva em consideração todas as regras e
+limitações do banco de dados. Obedece a padrões e validações e a partir daqui que o modelo
+deve estar espelhado para o seu banco de dados final.
+
+O modelo é uma representação conceitual dos dados, dos relacionamentos entre os
+dados e das regras. A própria modelagem pode conter diagramas, símbolos ou texto para
+representar os dados e o modo como eles se associam.
+
+Por conta da estrutura que a modelagem de dados impõe aos dados, esse processo
+subsequentemente aumenta a consistência da nomenclatura, regras, semântica e segurança ao
+mesmo tempo em que melhora a análise de dados.
+
+Esse processo crítico consiste em criar estruturas no sistema de armazenamento
+escolhido (físico ou cloud) para possibilitar a associação e o resgate de informações em um
+determinado padrão e momento.
+
+A modelagem é requisito essencial no desenvolvimento de softwares, pois permite a
+integração de bancos de dados por sistemas independentes. Nesse contexto, vale ressaltar que
+um erro durante a modelagem pode comprometer toda a usabilidade do sistema e gerar
+retrabalho de programação e reformulação de todo o banco, o que sempre aumenta o custo do
+projeto.

@@ -1,0 +1,23 @@
+A modelagem de dados contempla todas as atividades relacionadas ao banco de dados
+para representar como os dados serão organizados e armazenados. Entre outros exemplos, a
+modelagem de dados:
+
+• Identifica as entidades e atributos dos dados.
+• Aplica uma convenção de nomes para padronizar ou hierarquizar os dados.
+• Identifica relacionamentos e aspectos comuns entre os dados.
+• Associa chaves para os dados serem requisitados com mais facilidade.
+• Normaliza o banco para reduzir a redundância dos dados.
+• Diversifica os dados para melhorar o desempenho.
+
+Os modelos de dados são formados de entidades, que são os objetos ou conceitos sobre
+os quais se rastreiam os dados, e eles se tornam as tabelas em um banco de dados. Produtos,
+vendedores e clientes são exemplos de possíveis entidades em um modelo.
+
+As entidades têm atributos, que são particularidades que queremos rastrear — você pode
+pensar nos atributos como as colunas de uma tabela. Se tivermos uma entidade de uma
+mercadoria, por exemplo, o nome dela pode ser um atributo.
+
+As entidades não existem sozinhas. Elas estão ligadas umas às outras. As conexões entre
+entidades em um modelo de dados são chamadas de relacionamentos que refletem as regras de
+negócios. Os relacionamentos podem ser um para um, um para muitos ou muitos para muitos,
+como veremos mais tarde no Power BI.

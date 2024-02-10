@@ -1,0 +1,19 @@
+Os modelos transacionais são aqueles projetados para atender à sistemas transacionais,
+ou seja, que tenham foco nos dados provenientes de interações de um sistema informatizado
+com suas fontes de dados.
+
+Exemplificando: quando fazemos uma compra no supermercado, recebemos uma lista
+com os nomes dos produtos e os respectivos preços e quantidades. Esses são dados
+transacionais, usados nas transações diárias de operação de uma empresa.
+
+O mesmo acontece na modelagem transacional. Ela prima armazenar e recuperar os
+dados referentes às transações. A preocupação nesse caso é com a normalização dos atributos,
+útil ao processamento de informações imediatas e não ao gerenciamento e tomada de decisões.
+Tal processo é chamado também de OLTP (Online Transaction Processing).
+
+Por outro lado, a modelagem informacional – ou dimensional – tem objetivo oposto, ela
+visa atender a necessidade da tomada de decisão e para isso se baseia em grandes volumes de
+dados da base transacional.
+
+Nesse caso, o histórico é essencial e necessita de muita armazenagem. Também chamado
+de OLAP (Online Analytical Processing),

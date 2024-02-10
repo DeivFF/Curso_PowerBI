@@ -1,0 +1,13 @@
+ELT, que significa Extração, Carga e Transformação (em inglês, Extraction, Load, Transform), é uma abordagem alternativa ao processo ETL. Assim como o ETL, o ELT é utilizado para integrar dados de diferentes fontes em um repositório central, geralmente um data warehouse, para análise e relatórios. A diferença fundamental entre ETL e ELT reside na ordem das operações de transformação.
+
+Aqui está uma breve explicação de cada etapa do processo ELT:
+
+Extração (Extraction): Semelhante ao ETL, a primeira fase envolve a extração de dados de diversas fontes, como bancos de dados, aplicativos, APIs e outros repositórios de dados.
+
+Carga (Load): Diferentemente do ETL, no ELT, os dados extraídos são carregados diretamente no data warehouse sem uma etapa de transformação significativa no momento da carga inicial. Os dados brutos são armazenados no data warehouse na sua forma original.
+
+Transformação (Transform): A transformação dos dados ocorre dentro do data warehouse, após a carga. As operações de limpeza, enriquecimento, agregação e outras transformações são aplicadas aos dados armazenados no data warehouse para prepará-los para análises.
+
+A escolha entre ETL e ELT muitas vezes depende das características específicas do ambiente e dos requisitos do projeto. O ELT é muitas vezes associado a soluções de data warehouse modernas que são capazes de lidar com grandes volumes de dados e realizar operações de transformação de maneira eficiente diretamente no repositório central.
+
+Ambas as abordagens, ETL e ELT, têm seus prós e contras, e a escolha entre elas dependerá dos requisitos específicos do projeto, da infraestrutura disponível e das preferências da equipe de desenvolvimento

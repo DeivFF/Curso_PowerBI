@@ -1,0 +1,20 @@
+Medidas são expressões ou fórmulas que realizam cálculos sobre os dados de um conjunto de dados específico.
+Elas são fundamentais para a criação de análises e visualizações mais avançadas, permitindo extrair
+informações úteis e relevantes a partir dos dados brutos.
+
+As medidas podem executar uma variedade de operações, como soma, contagem, média, mínimo, máximo, entre
+outras, dependendo das necessidades de análise. Além disso, as medidas podem ser criadas usando funções
+específicas do Power BI, como SUM, AVERAGE, COUNT, MAX, MIN, entre outras, ou usando expressões DAX (Data
+Analysis Expressions), a linguagem de fórmula usada no Power BI.
+
+As medidas são especialmente úteis quando se trabalha com conjuntos de dados complexos que exigem cálculos
+personalizados ou agregações específicas. Por exemplo, pode-se criar uma medida para calcular a receita
+total de vendas, o lucro líquido, a taxa de crescimento, entre outras métricas importantes para a análise.
+
+Uma vez criadas, as medidas podem ser usadas em diversas visualizações dentro do relatório ou painel,
+permitindo analisar os dados de diferentes perspectivas e em diferentes contextos. Elas também podem ser
+combinadas com filtros, slicers e outras funcionalidades interativas do Power BI para oferecer uma análise
+mais dinâmica e personalizada.
+
+Em resumo, as medidas são ferramentas poderosas no Power BI que permitem realizar cálculos personalizados e
+extrair insights valiosos dos dados, contribuindo para uma análise mais profunda e informada.

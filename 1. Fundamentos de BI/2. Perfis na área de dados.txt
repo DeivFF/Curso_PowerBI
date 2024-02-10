@@ -1,0 +1,37 @@
+Principais Perfis na Carreira de Dados:
+
+1. Engenheiro de Dados:
+
+Responsável pelo desenho e construção de sistemas voltados para a coleta, armazenamento e processamento de dados.
+Realiza extração de dados de diferentes fontes e os transforma para disponibilização a cientistas e analistas.
+Lida com banco de dados relacionais e não relacionais, fluxo de dados, e sistemas de coleta.
+
+2. Cientista de Dados:
+
+Possui um perfil analítico e de reconhecimento de padrões.
+Realiza análises preditivas e descritivas para encontrar insights e responder perguntas específicas.
+Envolvido na modelagem de dados e utiliza técnicas avançadas, como machine learning.
+
+3. Analista de BI (Business Intelligence):
+
+Aborda análises mais voltadas para o negócio.
+Cria dashboards e apresentações visuais para entender o comportamento do negócio a partir dos dados.
+Foca em métricas específicas, satisfação do usuário e diagnóstico de comportamentos.
+
+Considerações Adicionais:
+
+O Engenheiro de Dados está mais voltado para a construção de sistemas e a disponibilização dos dados.
+O Cientista de Dados tem um perfil mais pesquisador, utilizando técnicas avançadas de análise.
+O Analista de BI concentra-se em análises mais voltadas para o negócio e na criação de representações visuais dos dados.
+
+Diferenças de Foco:
+
+Engenheiro de Dados: Construção e disponibilização de sistemas.
+Cientista de Dados: Análises avançadas e modelagem de dados.
+Analista de BI: Compreensão do comportamento do negócio por meio de análises visuais.
+
+Observações Adicionais:
+
+O Marchine learning enginer é o responsável pelo Deploy do modelo, colocando-o em produção e realizando manutenção.
+Cada profissão na área de dados tem suas técnicas específicas, mas todas visam extrair valor dos dados disponíveis.
+Esses perfis complementam-se dentro da área de dados, cada um desempenhando um papel crucial na transformação de dados brutos em insights acionáveis para impulsionar o sucesso de uma organização.

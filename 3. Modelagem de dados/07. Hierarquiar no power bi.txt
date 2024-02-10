@@ -1,0 +1,17 @@
+No Power BI, a hierarquia é uma estrutura organizada de dados que nos permite  analisar informações de
+maneira mais detalhada ou resumida, navegando por diferentes níveis de agregação. Isso é especialmente útil
+quando se trabalha com conjuntos de dados que possuem dados organizados em diferentes níveis de
+granularidade, como datas, regiões geográficas, categorias de produtos, entre outros.
+
+Por exemplo, suponha que tenhamos dados de vendas que incluem datas de transação, mês, trimestre e ano.
+Podemos criar uma hierarquia onde o ano contenha trimestres, que por sua vez contêm meses, e assim por
+diante. Com essa hierarquia, podemos visualizar os dados em níveis mais altos, como o total de vendas por
+ano, e depois aprofundar a análise para ver os trimestres ou meses individuais.
+
+No Power BI, podemos criar hierarquias facilmente arrastando e soltando os campos desejados na área de
+hierarquia da visualização. Uma vez criada, a hierarquia pode ser usada em diferentes visualizações para
+explorar dados em diferentes níveis de detalhe.
+
+As hierarquias são úteis para simplificar a análise de conjuntos de dados complexos, permitindo focar nos
+detalhes relevantes e navegar pelos dados de maneira intuitiva. Isso facilita a identificação de padrões,
+tendências e insights significativos nos dados.

@@ -1,0 +1,19 @@
+Qual é a importância do ciclo envolvendo dados, informação e conhecimento na área de dados?
+
+Como os dados são definidos no texto e por que são considerados a matéria-prima para a análise?
+
+Explique a necessidade do processo de limpeza de dados e mencione algumas das ações realizadas nessa etapa.
+
+Qual é o papel da informação no ciclo mencionado, e como ela se diferencia dos dados?
+
+Como a informação contribui para agregar valor aos dados, de acordo com o texto?
+
+O que representa o conhecimento na dinâmica descrita, e como ele se diferencia da informação?
+
+Dê um exemplo prático fornecido no texto para ilustrar a diferença entre informação e conhecimento.
+
+Por que a tomada de decisão orientada por dados é considerada um conceito essencial na área de dados?
+
+Como a compreensão das fontes de origem dos clientes pode influenciar a alocação de recursos de marketing?
+
+Qual é a contribuição da jornada de transformação dos dados para os processos organizacionais?

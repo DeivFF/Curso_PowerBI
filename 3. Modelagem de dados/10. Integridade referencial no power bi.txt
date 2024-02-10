@@ -1,0 +1,38 @@
+No Power BI, a integridade referencial é um conceito importante, embora a ferramenta não execute
+verificações automáticas como um banco de dados relacional faria. 
+
+É responsabilidade do modelador de dados ou do analista que está criando o relatório garantir que os
+relacionamentos entre tabelas estejam corretamente configurados para manter a integridade referencial.
+
+Na prática, isso significa que, ao modelar os dados no Power BI, é necessário garantir que os
+relacionamentos entre as tabelas estejam configurados adequadamente, especialmente entre tabelas de dimensão
+e tabelas de fato. Embora o Power BI não sinalize explicitamente erros em caso de valores órfãos na tabela
+de dimensão na tabela de fato, a ausência desses valores pode levar a resultados imprecisos em análises e
+visualizações.
+
+Portanto, ao trabalhar com o Power BI, é fundamental que seja verificada a integridade referencial e que
+seja tomada medidas proativas para garantir que os relacionamentos estejam configurados corretamente e que
+os dados estejam consistentes, garantindo análises precisas e confiáveis.
+
+Em um cenário típico, duas tabelas são comumente encontradas em um modelo de dados no Power BI: uma tabela
+de vendas (tabela de fato) e uma tabela de clientes (tabela de dimensão).
+
+Na tabela de vendas, são registradas informações como ID do cliente, ID do produto, data da venda e valor da
+compra. Na tabela de clientes, são armazenadas informações como ID do cliente, nome, endereço e e-mail.
+
+Para assegurar a integridade referencial, é essencial estabelecer um relacionamento entre a tabela de vendas
+e a tabela de clientes com base no ID do cliente. Isso viabiliza a análise dos dados de vendas e a possível
+inclusão de informações complementares dos clientes, como nome e endereço, em análises e visualizações.
+
+Considerando que o relacionamento entre essas tabelas tenha sido configurado corretamente, a inclusão de um
+novo registro de venda na tabela de vendas com um ID de cliente inexistente na tabela de clientes poderia
+resultar em um valor "órfão". Nesse contexto, um registro de venda estaria referenciando um cliente que não
+consta na tabela de clientes.
+
+No Power BI, caso o ID do cliente seja utilizado como dimensão em uma visualização e ocorra um valor órfão
+na tabela de vendas, tal cliente não terá informações associadas, como nome, endereço, etc. Isso pode
+impactar a precisão e interpretação das análises.
+
+Portanto, para garantir a integridade referencial e evitar valores órfãos, é crucial que os modeladores de
+dados verifiquem e mantenham a consistência dos dados em seus modelos do Power BI, certificando-se de que
+todos os valores de referência estejam presentes e corretamente relacionados entre as tabelas.

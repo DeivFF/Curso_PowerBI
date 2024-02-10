@@ -1,0 +1,19 @@
+O que impulsionou o crescimento significativo na área de dados nos últimos tempos?
+
+Como a evolução da computação, tanto em termos de hardware quanto de software, contribuiu para esse crescimento na área de dados?
+
+Quais são alguns dos tipos de dados que se tornaram mais comuns com o surgimento das redes sociais?
+
+Mencione uma aplicação prática da utilização de dados no setor de saúde, conforme mencionado no texto.
+
+Como os dados são utilizados no e-commerce para influenciar as decisões dos consumidores?
+
+Explique o papel da telemedicina e como a análise de dados é aplicada nessa área.
+
+Quais são algumas das responsabilidades do Analista de Dados, conforme descrito no texto?
+
+Diferencie as funções de Cientista de Dados e Engenheiro de Dados, conforme mencionado no texto.
+
+O que um Analista de BI (Business Intelligence) foca em suas análises?
+
+Qual é o objetivo comum compartilhado por todas as profissões mencionadas na área de dados, de acordo com o texto?

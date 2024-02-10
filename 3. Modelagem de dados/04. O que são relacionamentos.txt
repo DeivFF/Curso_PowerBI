@@ -1,0 +1,5 @@
+No Power BI, relacionamentos referem-se à conexão entre diferentes conjuntos de dados com base em campos comuns. Essa capacidade de estabelecer relacionamentos é fundamental para integrar dados de várias fontes e realizar análises mais avançadas.
+
+Os relacionamentos no Power BI permitem que os usuários vinculem tabelas diferentes por meio de campos que possuem valores correspondentes. Por exemplo, é possível ter uma tabela de vendas com uma coluna de ID do cliente e outra tabela com detalhes dos clientes, onde também existe uma coluna de ID do cliente. Ao estabelecer um relacionamento entre essas duas tabelas com base no ID do cliente, os usuários podem combinar informações das duas tabelas em suas visualizações e análises.
+
+Quando um relacionamento é criado no Power BI, a ferramenta utiliza esses relacionamentos para calcular automaticamente os resultados corretos ao fazer consultas e criar visualizações. Isso permite que os usuários explorem e analisem seus dados de maneira mais eficiente e precisa.

@@ -1,0 +1,19 @@
+A normalização é um processo utilizado para organizar dados de forma eficiente, minimizando a redundância e
+a inconsistência. O objetivo principal da normalização é eliminar a redundância de dados, garantindo que
+cada informação seja armazenada apenas uma vez, o que ajuda a reduzir o espaço de armazenamento necessário e
+a evitar problemas de inconsistência.
+
+Existem várias formas normais (1NF, 2NF, 3NF, BCNF, 4NF, 5NF, entre outras), cada uma com critérios
+específicos que um banco de dados deve atender para ser considerado normalizado nesse nível. Geralmente, o
+processo de normalização envolve dividir grandes tabelas em tabelas menores e mais coesas, estabelecendo
+relacionamentos entre elas por meio de chaves primárias e estrangeiras.
+
+Por exemplo, suponha que você tenha uma tabela de clientes que inclui informações como nome, endereço e
+número de telefone, e outra tabela de pedidos que inclui informações sobre os produtos pedidos pelos
+clientes. Ao invés de repetir as informações de clientes em cada linha da tabela de pedidos, você pode criar
+uma tabela separada para clientes e estabelecer uma relação entre as tabelas usando uma chave estrangeira,
+como o ID do cliente. Isso reduz a redundância e facilita a manutenção dos dados.
+
+Em resumo, a normalização é um processo importante no design de bancos de dados que visa garantir a
+eficiência, integridade e consistência dos dados, facilitando o gerenciamento e a análise das informações
+armazenadas.

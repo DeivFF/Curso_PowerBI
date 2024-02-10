@@ -1,0 +1,5 @@
+Relacionamentos bidirecionais, referem-se a uma configuração na qual a relação entre duas tabelas permite a navegação em ambas as direções. Isso significa que podemos seguir o relacionamento de uma tabela para outra e, em seguida, retornar à tabela original usando o mesmo relacionamento.
+
+Em um relacionamento bidirecional, os filtros aplicados em uma tabela também afetam a outra tabela relacionada e vice-versa. Isso pode ser útil em cenários específicos em que queremos que as interações em uma visualização afetem os resultados em outras visualizações que estão conectadas por meio do relacionamento.
+
+

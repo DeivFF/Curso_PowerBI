@@ -1,0 +1,19 @@
+A propagação de filtro, no contexto do Power BI e outras ferramentas de análise de dados, refere-se à capacidade de aplicar filtros em uma visualização e ter esses filtros automaticamente refletidos em outras visualizações conectadas por meio de relacionamentos de dados.
+
+Por exemplo, quando um usuário aplica um filtro para exibir apenas as vendas de um produto específico em uma visualização, se outra visualização estiver conectada por meio de um relacionamento entre as tabelas de produtos e vendas, ela será automaticamente filtrada para mostrar informações relevantes apenas para esse produto específico.
+
+Essa funcionalidade é fundamental para análises interativas, permitindo que os usuários explorem os dados de diferentes maneiras sem a necessidade de aplicar manualmente os mesmos filtros em várias visualizações. Além disso, a propagação de filtro torna as análises mais dinâmicas e intuitivas, facilitando a descoberta de insights importantes.
+
+No entanto, é crucial garantir a integridade dos relacionamentos no modelo de dados para que a propagação de filtro funcione conforme desejado. Se os relacionamentos não estiverem configurados corretamente, os filtros podem não ser propagados como esperado ou podem resultar em resultados incorretos.
+
+Suponhamos que existam duas visualizações em um relatório do Power BI:
+
+Visualização de Vendas por Região: Esta visualização mostra o total de vendas por região em um gráfico de barras.
+
+Visualização de Lucro por Produto: Esta visualização mostra o lucro por produto em uma tabela.
+
+Quando um usuário aplica um filtro na visualização de vendas para mostrar apenas as vendas de um produto específico, como um smartphone, a propagação de filtro é ativada:
+
+A visualização de vendas é filtrada automaticamente para mostrar apenas as vendas do smartphone selecionado.
+
+Ao mesmo tempo, a visualização de lucro por produto é automaticamente filtrada para exibir o lucro associado apenas ao smartphone selecionado na visualização de vendas. Dessa forma, ao explorar os dados em uma visualização e aplicar filtros específicos, esses filtros são automaticamente refletidos em outras visualizações conectadas por meio de relacionamentos, permitindo uma análise coesa e interativa dos dados.

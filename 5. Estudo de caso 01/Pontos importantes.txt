@@ -1,0 +1,12 @@
+Ao analisar o total de vendas por estado em um dashboard com um gráfico de mapa, alguns estados, como "São Paulo" e "Rio de Janeiro", podem ser exibidos como cidades em vez de estados.
+
+Para solucionar esse problema, podemos seguir o passo a passo abaixo:
+
+Selecionar a coluna que contém os dados de localização (estados) no conjunto de dados.
+Ir até a opção de "Ferramentas de coluna", localizada no canto superior da interface da ferramenta de visualização de dados.
+Dentro do painel de Ferramentas de coluna encontrar a opção "Categoria de Dados".
+Ao clicar em "Categoria de Dados", uma lista de opções será exibida.
+Escolher a opção "Estado ou Província" para indicar que os dados na coluna selecionada representam estados ou províncias.
+Após selecionar a categoria correta para os dados de localização, salvar as alterações.
+Agora, ao visualizar o gráfico de mapa, os dados de vendas serão corretamente agrupados e exibidos por estado, em vez de cidade.
+Essas etapas garantirão que os dados sejam interpretados corretamente pela ferramenta de visualização, permitindo que o gráfico de mapa mostre as vendas por estado de forma precisa e adequada.

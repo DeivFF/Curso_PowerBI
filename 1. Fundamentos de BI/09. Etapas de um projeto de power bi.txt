@@ -1,0 +1,9 @@
+Começar um projeto a partir de um problema de negócio é essencial para garantir que o esforço e os recursos sejam direcionados para resolver desafios reais e agregar valor à organização. Uma vez definido o problema, o próximo passo é determinar quais dados são necessários para abordá-lo de maneira eficaz. Isso pode envolver a identificação das fontes de dados relevantes, bem como das tabelas e colunas específicas que contêm as informações necessárias para compreender e resolver o problema em questão.
+
+A seleção dos dados, tabelas e colunas a serem utilizadas depende inteiramente da natureza do problema de negócio em análise. Por exemplo, se o problema envolve otimizar as operações de vendas, pode ser necessário acessar dados de vendas, clientes, produtos e estoque. Por outro lado, se o objetivo é melhorar a eficiência do marketing digital, pode ser necessário acessar dados de campanhas, interações de clientes e métricas de engajamento.
+
+Após a coleta dos dados relevantes, o próximo passo é prepará-los para análise. Isso pode incluir a limpeza dos dados para remover valores nulos ou inconsistentes, a transformação dos dados para garantir que estejam em um formato adequado para análise, e a integração de dados de diferentes fontes para garantir a consistência e a completude dos dados.
+
+Finalmente, a etapa seguinte é a modelagem de dados. Nesta fase, os dados preparados são estruturados e organizados em um modelo de dados que facilita a análise e a geração de insights. Isso pode envolver a criação de tabelas de fatos e dimensões, o estabelecimento de relacionamentos entre as tabelas e a definição de medidas e métricas para análise.
+
+Em resumo, começar com um problema de negócio, identificar os dados necessários para resolvê-lo, preparar os dados para análise e, finalmente, modelar os dados para facilitar a análise são etapas essenciais no processo de análise de dados e tomada de decisões informadas.

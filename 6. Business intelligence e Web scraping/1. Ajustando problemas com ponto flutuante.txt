@@ -1,0 +1,9 @@
+Ao lidar com bancos de dados originários de outros países, pode ocorrer um problema de visualização dos dados flutuantes em uma tabela. Isso acontece porque a representação dos números decimais pode variar dependendo da configuração regional do sistema. Em alguns países, o separador decimal é uma vírgula, enquanto em outros é um ponto.
+
+Quando a tabela contém dados flutuantes e a configuração regional não está alinhada com o formato de dados esperado, pode ocorrer uma situação em que os valores flutuantes não são exibidos corretamente, ou mesmo não são visíveis.
+
+Uma maneira de resolver esse problema é acessar as configurações regionais. Pode-se seguir o caminho "Arquivo" > "Opções e Configurações" > "Opções" > "Configurações Regionais". Por padrão, a configuração regional pode estar definida como "Português (Brasil)", mas é necessário modificar para corresponder à representação utilizada no país de origem dos dados.
+
+Ao ajustar as configurações regionais para refletir o formato de dados esperado, garante-se que os dados flutuantes sejam interpretados e exibidos corretamente, evitando assim problemas de visualização e interpretação dos dados. Essa abordagem é essencial para garantir a precisão e integridade dos resultados da análise de dados, especialmente ao lidar com conjuntos de dados de diferentes origens geográficas.
+
+Outra maneira de resolver o problema é abrir o Power Query, ir até a coluna em que o tipo de dado está gerando erro, clicar para modificar o tipo de dado e escolher a opção 'Usando a localidade'. Em seguida, basta modificar o tipo de dado para Número Decimal e escolher a localidade de origem dos dados.

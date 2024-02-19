@@ -1,0 +1,16 @@
+Para retirar os espaços no início e no fim do texto, basta seguir o seguinte passo a passo:
+
+Selecionar a coluna de texto.
+Ir até a guia "Transformar" e clicar na seta para baixo no botão "Formatar".
+Escolher a opção "Cortar" (Trim).
+
+
+Alguns dados podem também possui 2 espaços derivados da tecla TAB, esses espaços ficam dentro da string, por isso, a função Trim não funciona, sendo assim, precisamos limpar essa coluna, para fazer isso basta seguir o passo a passo abaixo:
+
+Selecionar a coluna de texto.
+Ir até a guia "Transformar" e clicar na seta para baixo no botão "Formatar".
+Escolher a opção "Limpar" (Clean).
+
+Observação: nesses dados em questão, havia valores que possuía quatro espaços, três espaços e dois espaços, sendo assim, fui na opção 'substituir valores' e substituí cada um deles por somente um espaço.
+
+Outra coisa feita neste documento foi colocar a primeira letra da coluna 'Sexo' em maiúscula, para fazer isso basta ir em 'Formato' e clicar na opção 'Colocar cada palavra em maiúscula'

@@ -1,0 +1,1 @@
+Nos casos em que é necessário utilizar o preenchimento, é necessário substituir os valores vazios pelo valor 'null', pois somente assim será possível preencher os espaços em branco de determinada coluna.

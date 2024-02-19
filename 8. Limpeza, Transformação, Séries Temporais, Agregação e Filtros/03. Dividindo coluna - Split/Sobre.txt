@@ -1,0 +1,3 @@
+Os dados da tabela 'cliente' estão todos unidos em uma só coluna, por exemplo, o dado '36876AL1010' possui os 5 primeiros caracteres com a informação do ID do cliente, os 2 caracteres seguintes possui a informação do ID do país, enquanto os 4 últimos possuem as informações do Id do setor.
+
+Nesse caso, podemos dividir a coluna a coluna por posições, 0,5,7, e gerar três colunas 

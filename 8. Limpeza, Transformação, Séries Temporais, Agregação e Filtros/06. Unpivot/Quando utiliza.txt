@@ -1,0 +1,14 @@
+Nos casos em que temos colunas com dados semelhantes, podemos utilizar a função UNPIVOT, assim, conseguimos colocar todos esses dados em uma só coluna, por exemplo, na tabela utilizada como exemplo temos as colunas "rio grande do norte", "são paulo", "rio de janeiro" e "paraná" que representam o mesmo tipo de dado, ou seja, são estados. Cada coluna possui valores, esses valores representam a quantidade vendida.
+
+Nesse caso, transformamos essas colunas em linhas e diminuimos a quantidade de colunas.
+
+Importante: o título que será transformado em linha, sendo assim, é importante verificar se a informação está correta.
+
+
+Existem três métodos diferentes para selecionar a transformação Unpivot, incluem as seguintes opções:
+
+Unpivotar Colunas: Transforma quaisquer cabeçalhos de colunas selecionados em valores de linha e os dados nessas colunas em uma linha correspondente. Com esta seleção, quaisquer novas colunas que possam ser adicionadas à fonte de dados serão automaticamente incluídas na transformação Unpivot.
+
+Unpivotar Outras Colunas: Transforma todos os cabeçalhos de coluna que não estão selecionados em valores de linha e os dados nessas colunas em uma linha correspondente. Com esta seleção, quaisquer novas colunas que possam ser adicionadas à fonte de dados serão automaticamente incluídas na transformação Unpivot.
+
+Unpivotar Apenas Colunas Selecionadas: Transforma quaisquer cabeçalhos de colunas selecionados em valores de linha e os dados nessas colunas em uma linha correspondente. Com esta seleção, quaisquer novas colunas que possam ser adicionadas à fonte de dados não serão incluídas na transformação Unpivot.

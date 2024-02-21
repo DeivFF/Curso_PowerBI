@@ -1,0 +1,10 @@
+Um requisito comum ao construir soluções de BI é a necessidade de unir duas tabelas para formar um novo resultado que inclua algumas colunas de ambas as tabelas em uma única consulta. Felizmente, o Power BI torna essa tarefa muito simples com o recurso de Mesclar consultas. Usar esse recurso requer que você selecione duas tabelas e, em seguida, determine qual coluna ou colunas será a base de como as duas consultas são mescladas. Após determinar as colunas apropriadas para a junção, você selecionará um tipo de junção. Os tipos de junção são listados aqui com a descrição fornecida no produto.
+
+Left Outer (todos do primeiro, correspondência do segundo)
+Right Outer (todos do segundo, correspondência do primeiro)
+Full Outer (todas as linhas de ambos)
+Inner (apenas linhas correspondentes)
+Left Anti (linhas apenas no primeiro)
+Right Anti (linhas apenas no segundo)
+
+Muitos de vocês já podem estar muito familiarizados com esses termos diferentes de junção a partir da programação SQL que aprenderam no passado. No entanto, se esses termos são todos novos para você, recomendo revisar "Visualizing Merge Join Types in Power BI", cortesia de Jason Thomas na Power BI Data Story Gallery: Visualizing Merge Join Types. Esta ajuda visual é favorita de muitos usuários que são novos nesses conceitos.

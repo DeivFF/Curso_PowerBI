@@ -1,0 +1,41 @@
+. Na maioria das vezes, a tabela de datas é uma tabela de funções variáveis. Por exemplo, a
+tabela FactInternetSales tem três datas para rastrear o processamento de um pedido. Há a data do pedido, data de
+envio e data de vencimento.
+
+Cada uma dessas datas é muito importante para pessoas e departamentos diferentes dentro de uma organização.
+Por exemplo, o departamento financeiro pode desejar ver as vendas totais e o lucro pela data em que um produto
+foi comprado, a data do pedido. No entanto, seu departamento de remessa pode desejar ver a quantidade de
+produtos com base na data de envio. Como você atende a solicitações de diferentes departamentos em um único
+modelo de dados?
+
+Geralmente, existem duas maneiras de lidar com tabelas de funções variáveis no Power BI:
+• Importar a tabela várias vezes e criar relacionamentos ativos individuais.
+• Usar DAX e relacionamentos inativos para criar cálculos que mostrem cálculos por datas diferentes
+
+Alguns dos benefícios de importar a tabela várias vezes são os seguintes:
+• É mais fácil treinar e adaptar os usuários finais ao modelo de dados. Por exemplo, se você quiser ver as
+vendas e o lucro por data de envio, basta usar os atributos de data da tabela de data de envio em seus
+relatórios.
+• A maioria, se não todos, os cálculos DAX funcionarão em todas as tabelas de datas, portanto, não há
+necessidade de criar novos cálculos.
+• O valor analítico de colocar diferentes datas em uma matriz. Por exemplo, vendas pedidas e vendas enviadas
+por data.
+
+Alguns dos contras de importar a tabela várias vezes são:
+• Recursos. Memória e espaço adicionais serão usados.
+• Mudanças administrativas. Qualquer modificação feita em uma tabela precisará ser repetida para todas as
+tabelas, pois essas tabelas não estão vinculadas. Por exemplo, se você criar uma hierarquia em uma tabela,
+precisará criar uma hierarquia em todas as tabelas de datas.
+
+
+Supondo que tenhamos uma visualização mostrando as vendas totais e as transações totais por ano, mas qual
+ano? Já que a tabela fato possui 3 colunas de datas. Este é o ano em que um produto foi comprado ou o ano em
+que um produto foi enviado? O relacionamento inicialmente foi colocado ativo na data do pedido, então o
+resultado está na data do pedido, sendo assim, o relatório está exibindo os resultados com base em quando o
+produto foi comprado:
+
+Para resolver essa situação, uma das maneiras é importar duas tabelas de datas e criar um relacionamento
+para cada coluna diferente.
+
+O método alternativo é criar relacionamentos inativos e, em seguida, criar novos cálculos (medidas) usando a
+linguagem Data Analysis Expression (DAX).

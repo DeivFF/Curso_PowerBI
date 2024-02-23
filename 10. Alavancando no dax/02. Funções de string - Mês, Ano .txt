@@ -1,0 +1,46 @@
+Nosso objetivo agora é criar uma coluna calculada que tenha os valores da data escritos no formato "MM-YYYY".
+
+Primeiramente precisamos pegar o número do mês da data, para isso utilizamos a fórmula abaixo. Essa fórmula
+retorna o número de cada mês.
+
+Ano mês = MONTH('Date (Order)'[Date])
+
+Entretanto, temos um problema, as linhas que possuem os valores menores do que 10 estão retornando apenas com
+um dígito, e o padrão escolhido são 2 dígitos.
+
+Para corrigir isso utilizamos a fórmula a seguir:
+
+Ano mês = 0 & MONTH('Date (Order)'[Date]).
+
+Agora temos um novo problema, as linhas que possuem valores maiores do que 10 estão retornando com três
+dígitos: 010, 011, 012..
+
+Para corrigir isso utilizamos a fórmula a seguir:
+
+Ano mês = RIGHT(0 & MONTH('Date (Order)'[Date]),2).
+
+Essa fórmula é uma fórmula para manipular strings, ela deixa toda a string com apenas 2 dígitos começando do
+lado direito até chegar no lado esquerdo, caso o valor seja 01, ele não será alterado, mas caso seja 012, por
+exemplo, ela retirará deixará apenas os 2 últimos dígitos.
+
+Agora podemos completar o restante da fórmula da seguinte maneira.
+
+Ano mês = RIGHT(0 & MONTH('Date (Order)'[Date]),2) & "-" & YEAR('Date (Order)'[Date]).
+
+
+
+
+Uma outra maneira de realizar este mesmo cálculo é utilizando a função FORMAT.
+
+A função FORMAT no DAX é utilizada para formatar valores de data, hora e números em um formato específico. Ela
+permite que nós personalizemos a apresentação dos dados de acordo com as necessidades do solicitante. Ao
+aplicar a função FORMAT a uma coluna de data, por exemplo, é possível definir como essa data será exibida,
+como "DD/MM/AAAA" ou "MMM AAAA".
+
+Por exemplo, ao utilizar a função FORMAT em uma coluna de data chamada 'Data de Nascimento', nós podemos
+especificar o formato desejado, como "DD/MM/AAAA", para que a data seja exibida nesse padrão em nossas
+visualizações.
+
+Manipulando os dados para termos o mesmo resultado anterior, podemos escrever o seguinte código:
+
+Ano mês 2 = FORMAT('Date (Order)'[Date],"MM-YYYY")

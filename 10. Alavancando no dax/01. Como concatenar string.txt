@@ -1,0 +1,16 @@
+A concatenação de strings pode ser realizada utilizando o operador "&". Um exemplo simples disso em uma fórmula DAX seria:
+
+ConcatenatedString = Tabela[NomeColuna1] & Tabela[NomeColuna2]
+
+Neste contexto, Tabela representa o nome da tabela que contém as colunas a serem concatenadas, enquanto NomeColuna1 e NomeColuna2 são os nomes das colunas contendo as strings a serem concatenadas.
+
+Para concatenar literais de string, a seguinte abordagem pode ser adotada:
+
+ConcatenatedString = "Hello" & " " & "World"
+
+Além do operador "&" em DAX, também é possível realizar a concatenação de strings utilizando a função CONCATENATE. Entretanto, a função CONCATENATE aceita apenas 2 argumentos como string.
+
+Exemplo de uso:
+
+ConcatenatedString = CONCATENATE(Tabela[NomeColuna1], Tabela[NomeColuna2])
+

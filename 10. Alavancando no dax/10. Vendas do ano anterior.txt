@@ -1,0 +1,16 @@
+Para calcular as vendas do ano anterior, podemos utilizar a função CALCULATE em conjunto com a função SAMEPERIODLASTYEAR para obter as vendas do ano anterior. 
+
+VendasAnoAnterior = 
+CALCULATE(
+    SUM(SuaTabela[Valor]),
+    SAMEPERIODLASTYEAR(SuaTabela[Data])
+)
+
+Neste exemplo:
+
+SUM(SuaTabela[Valor]) representa a expressão ou medida que desejamos acumular, que é a soma das vendas.
+SuaTabela[Data] é a coluna de datas pela qual o Power BI vai calcular as vendas do ano anterior.
+SAMEPERIODLASTYEAR(SuaTabela[Data]) retorna o período correspondente ao ano anterior à data especificada na tabela.
+Portanto, a função CALCULATE está sendo utilizada para calcular a soma das vendas (SUM(SuaTabela[Valor])) considerando o período do ano anterior (SAMEPERIODLASTYEAR(SuaTabela[Data])).
+
+Podemos ajustar essa fórmula conforme necessário para atender aos detalhes específicos do nosso conjunto de dados e das nossas necessidades de análise.

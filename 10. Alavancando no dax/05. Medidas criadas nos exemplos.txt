@@ -1,0 +1,9 @@
+Total de Vendas = SUM('Vendas pela Internet'[Valor de Vendas])
+
+Total de Custos = SUM('Vendas pela Internet'[Custo Total do Produto]
+
+Lucro = SUM('Vendas pela Internet'[Valor de Vendas]) - SUM('Vendas pela Internet'[Custo Total do Produto])
+
+Outra maneira de escrever a medida acima é da seguinte maneira:
+
+Lucro = [Total de Vendas] - [Total de Custos]

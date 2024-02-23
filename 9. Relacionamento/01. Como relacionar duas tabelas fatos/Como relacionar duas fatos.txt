@@ -1,0 +1,20 @@
+Para estabelecer uma relação entre duas tabelas de fatos no Power BI, ao tentar fazer, o Power BI
+sinalizará um erro, ou caso não ocorra algum erro, ocorrerá problemas na visualização dos dados.
+
+A solução envolve a criação de uma tabela intermediária que contenha as chaves de ligação entre as duas
+tabelas de fatos. Posteriormente, é preciso relacionar as tabelas de fatos a essa tabela intermediária.
+É possível utilizar uma tabela já existente, o importante é que tenha alguma tabela fazendo a 'ponte'
+entre ambas as tabelas fatos.
+
+Após a conclusão dessa etapa, é necessário definir a direção do filtro em ambas as direções. Isso
+possibilitará que uma tabela de fatos filtre a outra, proporcionando uma integração eficaz e permitindo
+que as informações sejam filtradas de maneira recíproca entre ambas as tabelas.
+
+No exemplo, temos a chave ID-Produto em ambas as tabelas fatos como chave estrangeira, caso a chave
+utilizada seja a ID-Produto da tabela "Unidades Vendidas", o filtro bidirecional deve estar contido na
+tabela "Unidades Vendidas" e tabela intermediária.
+
+
+
+
+

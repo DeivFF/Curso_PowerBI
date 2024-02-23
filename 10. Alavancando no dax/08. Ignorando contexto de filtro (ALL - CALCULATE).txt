@@ -1,0 +1,15 @@
+Calcular a Porcentagem do Total por País:
+
+Agora, podemos usar a medida recém-criada para calcular a porcentagem do total para cada país. A função CALCULATE é utilizada novamente, mas desta vez no contexto de cada país individual.Suponhamos que haja uma tabela chamada "Vendas pela Internet" com colunas como "País" e "Vendas Totais". Se a necessidade for calcular as vendas totais por país como uma porcentagem do total de vendas de todos os países, podemos seguir os seguintes passos:
+
+Utilizar a função CALCULATE para modificar o contexto de filtro e a função SUM para somar todas as vendas totais. A função ALL é usada para remover quaisquer filtros aplicados à coluna "País", assegurando que o total geral seja obtido, independente dos filtros existentes
+
+Vendas Totais Todos os Países = CALCULATE(SUM('Vendas pela Internet'[Vendas Totais]), ALL('Vendas pela Internet'[País]))
+
+Essa medida cria um contexto de filtro que ignora qualquer filtro aplicado à coluna "País" ao calcular o total de vendas para todos os países.
+
+Porcentagem do Total por País = 'Vendas pela Internet'[Vendas Totais] / 'Vendas pela Internet'[Vendas Totais Todos os Países]
+
+Essa medida calcula a porcentagem das vendas totais de cada país em relação ao total de vendas de todos os países.
+
+Essencialmente, o uso de CALCULATE permite que se altere o contexto de filtro para realizar cálculos específicos. ALL é frequentemente utilizado para remover filtros de colunas específicas, garantindo que certas medidas sejam calculadas sem considerar determinados filtros, como o filtro aplicado à coluna "País" no exemplo dado. Isso é particularmente útil ao calcular porcentagens do total ou totais agregados em diferentes contextos.

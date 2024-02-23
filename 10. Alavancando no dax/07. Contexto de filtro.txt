@@ -1,0 +1,10 @@
+Uma definição simples do contexto de filtro seria que é simplesmente tudo em seu relatório que está filtrando uma
+medida. Existem muitos elementos que compõem o contexto de filtro. Vamos dar uma olhada em alguns deles:
+
+• Quaisquer atributos nas linhas; isso inclui os diferentes eixos em gráficos.
+• Quaisquer atributos nas colunas.
+• Quaisquer filtros aplicados por filtros visuais (slicers); os slicers são discutidos no próximo capítulo.
+• Quaisquer filtros aplicados explicitamente através do painel de Filtros.
+• Quaisquer filtros adicionados explicitamente à medida calculada.
+
+Por exemplo, uma medida que calcula a receita total pode fornecer resultados diferentes com base no contexto de filtro aplicado. Se uma visualização estiver filtrada para exibir apenas vendas de um determinado produto, a medida de receita total será calculada apenas para esse produto específico, levando em consideração o contexto de filtro de linha.

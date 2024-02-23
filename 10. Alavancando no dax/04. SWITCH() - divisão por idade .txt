@@ -1,0 +1,8 @@
+Agora que temos a idade do cliente, é hora de colocar cada cliente em um intervalo de idade. Para este exemplo,
+haverá quatro intervalos de idade separados:
+18-34
+35-44
+45-54
+55 +
+A função SWITCH é preferível à função IF ao realizar múltiplos testes lógicos em uma única fórmula DAX. Isso ocorre
+porque a função SWITCH é mais fácil de ler e facilita a depuração do código.

@@ -1,0 +1,19 @@
+Para calcular o total acumulado, utilizamos a função TOTALYTD, essa função é comumente utilizada para calcular totais acumulados ao longo do ano até uma determinada data.
+
+A sintaxe básica da função TOTALYTD é a seguinte:
+
+TOTALYTD(<expression>, <dates>, [<filter>])
+
+<expression>: Representa a expressão ou medida que você deseja acumular ao longo do ano.
+<dates>: É a coluna de datas pela qual o Power BI vai calcular o total acumulado. Pode ser a coluna de datas da sua tabela de dados.
+[<filter>]: (Opcional) Permite adicionar um filtro opcional para restringir quais datas devem ser consideradas no cálculo.
+
+A função TOTALYTD soma os valores da expressão fornecida desde o início do ano até a data especificada. Essa função é útil para criar medidas que mostram, por exemplo, o total acumulado de vendas ou receitas até a data atual.
+
+Aqui está um exemplo de como você pode usar a função TOTALYTD:
+
+Supõe-se que haja uma tabela chamada "SuaTabela" com uma coluna de data chamada "Data" e uma coluna numérica chamada "Valor"
+
+Uma medida precisa ser criada para calcular o total acumulado por ano. A função apropriada para isso é a TOTALYTD. Supondo que o objetivo seja calcular o total acumulado para a coluna "Valor", a fórmula seria algo assim:
+
+Total Acumulado = TOTALYTD(SUM(SuaTabela[Valor]), SuaTabela[Data])

@@ -1,0 +1,6 @@
+Utilizei a fórmula "Idade = ROUNDDOWN(DATEDIFF(Customer[Birth Date],NOW(),DAY)/365,0)" para calcular a idade a
+partir de uma coluna de data.
+
+DATEDIFF foi utilizada para calcular a diferença entre a data atual e a data da coluna que possui as informações
+sobre a data de nascimento. O resultado obtido foi em dias, para conseguir dividir por 365, após isso utilizei a
+função ROUNDOWN para retirar os casas decimais e deixar somente os números inteiros.

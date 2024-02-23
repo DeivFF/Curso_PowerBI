@@ -1,0 +1,16 @@
+Agora é hora de criar o cálculo da Margem de Lucro (a margem de lucro é simplesmente o lucro dividido
+pelas
+vendas). Para esta medida, você vai usar a função DIVIDE. A função DIVIDE é recomendada em vez do
+ perador de
+divisão (/) porque a função DIVIDE lida automaticamente com ocorrências de divisão por zero. No caso de
+ocorrências de divisão por zero, a função DIVIDE retorna vazio.
+Crie uma nova medida na tabela Vendas pela Internet usando o seguinte código:
+Margem de Lucro = DIVIDE([Lucro], [Total de Vendas])
+
+Parâmetros opcionais
+Você pode ter notado que a função DIVIDE aceitou três parâmetros e você forneceu apenas dois. O terceiro
+parâmetro permite que você defina um resultado alternativo para ocorrências de divisão por zero. Este
+resultado
+alternativo é opcional. Parâmetros opcionais são indicados por colchetes em ambos os lados do parâmetro.
+Esses
+parâmetros opcionais são comuns em muitas funções DAX. 

@@ -1,0 +1,5 @@
+O gráfico de linha é uma representação visual de dados que conecta pontos de dados por meio de linhas. Esse tipo de gráfico é frequentemente utilizado para exibir tendências ao longo do tempo, identificar padrões e mostrar relações contínuas entre variáveis. 
+
+O eixo X geralmente representa a variável independente, como o tempo, categorias ou qualquer outra medida contínua.
+
+O eixo Y representa a variável dependente ou a medida que está sendo analisada. Pode ser uma escala numérica, como valores de vendas, temperatura, ou qualquer outra métrica.

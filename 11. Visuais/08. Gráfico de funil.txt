@@ -1,0 +1,5 @@
+O gráfico de funil é uma representação visual que apresenta dados de forma hierárquica, destacando a progressão de uma categoria para outra em um processo específico. Ele assume a forma de um funil invertido, onde cada seção representa um estágio ou categoria.
+
+Cada seção do gráfico de funil representa um estágio específico em um processo, e a largura de cada seção reflete a quantidade de dados ou elementos naquela categoria. Rótulos ou texto podem ser adicionados para indicar o significado de cada estágio. Esse tipo de gráfico é frequentemente utilizado em contextos de vendas, marketing e análises de funis de conversão, proporcionando uma visão clara da diminuição gradual de oportunidades, clientes ou métricas ao longo de diferentes etapas.
+
+O gráfico de funil é eficaz para ilustrar visualmente a sequência de eventos em um processo hierárquico, facilitando a compreensão da redução progressiva de dados. Ele destaca a eficiência ou eficácia em cada estágio, sendo uma ferramenta valiosa para analisar e comunicar a dinâmica de processos em que a diminuição ou filtragem é um componente crítico.

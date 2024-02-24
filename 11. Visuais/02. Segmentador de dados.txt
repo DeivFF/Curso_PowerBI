@@ -1,0 +1,24 @@
+O "Segmentador de Dados" (Slicer) no Power BI é um visual que nos oferece a capacidade de filtrar dados em outros visuais na mesma página, proporcionando uma experiência interativa e intuitiva de controle das seleções de dados em um relatório.
+
+As principais características e funcionalidades do Segmentador de Dados no Power BI incluem:
+
+Podemos selecionar valores específicos da dimensão associada ao segmentador, como diferentes regiões geográficas em um segmentador de regiões.
+
+Quando um valor é escolhido no segmentador, os outros visuais na mesma página são automaticamente filtrados para exibir apenas os dados correspondentes ao valor 
+
+É possível adicionar vários segmentadores na mesma página, permitindo que façamos seleções em diferentes dimensões e observemos como essas escolhas afetam os dados em 
+
+• Lista: Esta opção está disponível independentemente do campo que você selecionar. É uma lista distinta de
+valores do campo selecionado. Isso é melhor usado quando há um número pequeno de opções para
+escolher.
+• Suspenso: Isso dá ao usuário um menu suspenso que conterá uma lista distinta de valores do campo
+selecionado. Isso é muito semelhante à opção Lista, mas nossas escolhas estão ocultas até clicarmos na
+opção de menu suspenso. Isso ainda é destinado a um conjunto menor de valores para que os usuários não
+tenham que rolar por centenas de opções.
+• Entre: Aqui temos a opção do nosso segundo exemplo usando o campo Year. Essa escolha só se apresentará
+para campos que são do tipo de dados numérico, e isso inclui datas. Permite que os usuários especifiquem
+um intervalo de valores a serem usados como filtro pelo uso de uma barra deslizante.
+• Menor ou igual a: Muito semelhante à opção Entre, mas a escala deslizante só pode ser ajustada a partir do
+lado esquerdo.
+• Maior ou igual a: Isso é o mesmo que a opção anterior, exceto que você só pode ajustar a escala deslizante a
+partir do lado direito.

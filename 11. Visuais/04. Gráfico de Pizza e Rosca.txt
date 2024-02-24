@@ -1,0 +1,10 @@
+Os gráficos de pizza e rosca são tipos de visualizações que representam dados de maneira circular, sendo frequentemente utilizados para mostrar a composição percentual de um todo. Ambos são bastante úteis para ilustrar a distribuição proporcional de partes em relação ao todo. 
+
+Gráfico de Pizza:
+O gráfico de pizza é uma representação circular dividida em fatias, onde cada fatia representa uma parte proporcional de um todo.
+É eficaz para mostrar a distribuição percentual de categorias ou partes em um conjunto de dados.
+Geralmente, é recomendado quando há um número limitado de categorias e quando as diferenças percentuais são significativas.
+
+Gráfico de Rosca:
+O gráfico de rosca é semelhante ao gráfico de pizza, mas com um buraco no centro, formando um anel.
+Assim como o gráfico de pizza, é usado para representar a distribuição percentual, mas o buraco central não adiciona informações adicionais à composição percentual.

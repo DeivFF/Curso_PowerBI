@@ -1,0 +1,11 @@
+A filtragem interativa permite que filtremos dados em um visual e, automaticamente, os outros visuais na mesma página são filtrados com base na seleção feita
+
+Vamos supor que temos os visuais abaixo:
+
+Um gráfico de barras que mostra as vendas totais por mês.
+
+Uma tabela que lista os detalhes dos produtos vendidos, incluindo o nome do produto, quantidade vendida e preço.
+
+Quando clicarmos em um determinado mês no gráfico de vendas mensais, a tabela de detalhes de produtos é automaticamente filtrada para exibir apenas os produtos vendidos naquele mês selecionado. Dessa forma, podemos obter detalhes específicos sobre os produtos vendidos em um determinado período de tempo.
+
+Por exemplo, se clicarmos no mês de "Janeiro", a tabela de detalhes de produtos mostrará apenas os produtos vendidos em janeiro. Se mudarmos para "Fevereiro" no gráfico de vendas mensais, a tabela de detalhes de produtos será filtrada automaticamente para exibir os detalhes dos produtos vendidos em fevereiro, e assim por diante.

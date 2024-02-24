@@ -1,0 +1,17 @@
+O gráfico de coluna empilhada e linha é uma combinação visual que une dois tipos de gráficos em um só. Ele combina as características do gráfico de coluna empilhada e do gráfico de linha, proporcionando uma representação eficaz para visualizar dados que possuem elementos categóricos e uma tendência ao longo do tempo. Aqui estão alguns pontos importantes sobre esse tipo de gráfico:
+
+O eixo X geralmente representa as categorias ou grupos que estão sendo comparados, como períodos de tempo, produtos, ou qualquer outra variável categórica.
+
+O eixo Y representa a escala numérica ou quantitativa. Pode representar valores absolutos, percentuais ou qualquer medida que esteja sendo analisada.
+
+As colunas empilhadas são usadas para representar a distribuição percentual ou absoluta de diferentes categorias em cada grupo do eixo X. Cada coluna é dividida em segmentos empilhados, onde cada segmento representa uma categoria específica.
+
+Uma linha é sobreposta ao gráfico de coluna empilhada para representar uma tendência ao longo do tempo ou qualquer outra relação contínua. Os pontos de dados são conectados por uma linha, permitindo visualizar padrões e mudanças na variável ao longo das categorias.
+
+Esse tipo de gráfico é particularmente útil quando você deseja mostrar a distribuição de categorias em diferentes grupos e, ao mesmo tempo, visualizar a tendência geral dessas categorias ao longo do eixo X.
+
+A legenda é essencial para identificar as diferentes partes empilhadas das colunas, assim como a linha, tornando a visualização compreensível.
+
+O gráfico de linha geralmente inclui marcadores nos pontos de dados, tornando mais fácil identificar valores específicos.
+
+Essa combinação de gráficos é eficaz para representar dados complexos, permitindo a análise tanto da distribuição de categorias quanto da tendência geral ao longo das categorias. 

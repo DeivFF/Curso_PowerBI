@@ -1,0 +1,11 @@
+O gráfico de barras empilhadas é uma representação visual de dados que permite mostrar a contribuição de diferentes categorias para um total, ao mesmo tempo em que exibe a mudança na composição ao longo do tempo ou de acordo com outra variável. No contexto do Power BI, o gráfico de barras empilhadas pode ser uma ferramenta útil para analisar a distribuição de valores em diferentes categorias.
+
+Aqui estão alguns elementos importantes ao criar um gráfico de barras empilhadas no Power BI:
+
+Eixo X (Horizontal): O eixo X geralmente representa a escala numérica ou quantitativa. Ele mostra a medida ou a métrica que você deseja visualizar, como valores de vendas, quantidades, percentagens, etc.
+
+Eixo Y (Vertical): O eixo Y representa as categorias ou grupos que estão sendo comparados. Isso pode incluir diferentes períodos de tempo, produtos, regiões geográficas, etc.
+
+Legenda: A legenda é usada para rotular as diferentes partes empilhadas de cada barra. Cada cor na barra representa uma categoria específica dentro da categoria principal do eixo X. Por exemplo, se você estiver visualizando vendas ao longo do tempo, cada cor na barra pode representar uma categoria de produto diferente.
+
+Múltiplos Pequenos: No contexto do Power BI, você pode usar a funcionalidade de "múltiplos pequenos" para dividir o gráfico em várias seções menores, cada uma representando uma subdivisão dos dados. Isso pode ser útil para análises mais detalhadas ou para comparar diferentes segmentos dentro de uma categoria.

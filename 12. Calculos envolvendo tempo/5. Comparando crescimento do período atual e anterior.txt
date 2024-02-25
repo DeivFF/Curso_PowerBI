@@ -1,0 +1,14 @@
+Uma necessidade comum é comparar um período de tempo com o mesmo período no ano, trimestre ou mês
+anterior. O último mês/trimestre/ano pode ser incompleto; então, para alcançar uma comparação justa, a
+comparação deve considerar um período equivalente. Por essas razões, os cálculos mostrados nesta seção
+usam a coluna calculada Date[DataComVendas].
+
+Por exemplo, as vendas no último ano ocorreu até o dia 02 de agosto, entretanto, no ano anterior as vendas
+foram até o final de dezembro.
+
+Quando calculamos o crescimento referente ao ano anterior, calculamos da seguinte maneira:
+
+(Valor atual - Valor anterior) / Valor anterior.
+
+Mas no casos das vendas de agosto a partir do dia 03, não será um cálculo justo, pois, não terá registro
+no último ano para comparar com o ano anterior, sendo assim, retornará um resultado incorreto.

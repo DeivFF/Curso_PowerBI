@@ -1,0 +1,23 @@
+Como Criar uma Coluna Calculada na Tabela Calendário para Verificar se Houve Vendas até uma Determinada
+Data
+
+Uma maneira eficaz de rastrear se houve vendas até uma determinada data em uma tabela de calendário no
+Power BI é criar uma coluna calculada. A seguir, apresentamos um exemplo usando o código DAX:
+
+
+DataComVendas = dCalendario[Data] <= MAX(TabelaVendas[DataVenda])
+
+Este código compara cada data na tabela de calendário (dCalendario) com a última data registrada na
+tabela de vendas (TabelaVendas). A lógica subjacente é avaliada linha a linha, conforme explicado a
+seguir.
+
+Como Funciona o Código:
+
+Supondo que estamos avaliando a linha onde a data é 02/02/2024, e a última data registrada nas vendas
+também é 02/02/2024.
+
+O código realiza a seguinte verificação: "02/02/2024 é menor ou igual a 02/02/2024?" A resposta é sim,
+pois é igual. Portanto, a coluna DataComVendas para esta linha retorna TRUE.
+
+Agora, consideremos a linha onde a data é 03/02/2024. A verificação agora é "03/02/2024 é menor ou igual
+a 02/02/2024?" A resposta é não, pois 03/02/2024 é posterior a 02/02/2024. Portanto, a coluna DataComVendas para esta linha retorna FALSE.

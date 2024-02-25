@@ -1,0 +1,22 @@
+A função DATESMTD é utilizada para calcular o total acumulado por mês.
+
+A sintaxe da função DATESMTD é a seguinte:
+
+DATESMTD(<dates> [,<year_end_date>])
+
+<dates>: Este é o argumento obrigatório que representa a coluna ou expressão de coluna que contém as datas para
+as quais você deseja calcular o ano até a data.(utilizamos a coluna de data da dimensão calendário).
+<year_end_date>: Este é um argumento opcional que especifica a data de término do ano fiscal. Se não for
+fornecido, a função assumirá o final de dezembro.
+
+Um exemplo de uso da função:
+
+Total Sales YTD = 
+CALCULATE(
+    SUM('Sales'[SalesAmount]),
+    DATESMTD('Date'[Date])
+)
+
+Neste exemplo, a função CALCULATE é usada para calcular a soma das vendas até a data mais recente no conjunto
+de datas fornecido pela função DATESMTD. Isso cria uma medida que representa as vendas acumuladas durante o
+mês, quando o mês finaliza, o acumulado reseta.

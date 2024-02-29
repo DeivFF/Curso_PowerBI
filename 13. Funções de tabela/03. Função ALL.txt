@@ -1,0 +1,20 @@
+A função ALL é uma função do DAX (Data Analysis Expressions) que remove os filtros aplicados a uma coluna ou tabela em uma expressão DAX. Em outras palavras, ela retorna todos os valores possíveis de uma coluna ou tabela, ignorando qualquer filtro que possa estar em vigor.
+
+A sintaxe básica da função ALL é a seguinte:
+
+ALL(<table_or_column>)
+<table_or_column>: Esta é a tabela ou coluna da qual você deseja remover os filtros.
+
+Quando aplicada a uma coluna, a função ALL retorna todos os valores distintos da coluna, ignorando quaisquer filtros de linha ou contexto de linha que possam estar presentes. Quando aplicada a uma tabela, ela remove todos os filtros da tabela, permitindo que você avalie expressões como se nenhum filtro estivesse aplicado à tabela.
+
+A função ALL é comumente usada em conjunto com outras funções, como em medidas calculadas ou colunas calculadas, para realizar cálculos em um contexto sem considerar os filtros aplicados. Por exemplo, podemos usá-la para calcular agregações sobre todos os valores de uma coluna, independentemente dos filtros atuais no relatório.
+
+Aqui está um exemplo simples de como você pode usar a função ALL:
+
+TotalVendasSemFiltro = 
+CALCULATE(
+    SUM('Sales'[Amount]),
+    ALL('Product'[Color])
+)
+
+Neste exemplo, a função ALL('Product'[Color]) remove os filtros aplicados à coluna 'Product'[Color], permitindo que a soma seja calculada sobre todos os valores dessa coluna, independentemente dos filtros atuais em 'Sales'.

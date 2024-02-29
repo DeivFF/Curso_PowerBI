@@ -1,0 +1,16 @@
+Uma função de tabela no Power BI é uma função DAX que retorna uma tabela como resultado, em vez de um valor escalar. Essas funções são úteis para escrever consultas DAX e realizar cálculos avançados que envolvem iteração sobre tabelas de dados. Em essência, as funções de tabela permitem manipular conjuntos de dados de forma mais dinâmica e flexível, facilitando a criação de modelos de dados complexos e a realização de análises detalhadas.
+
+Por exemplo, ao usar uma função como FILTER, ALL, VALUES ou RELATEDTABLE, podemos filtrar, agrupar, ou manipular os dados em uma tabela de acordo com critérios específicos. Essas funções são fundamentais para realizar cálculos avançados e criar visualizações mais sofisticadas no Power BI.
+
+Um exemplo de função de tabela no Power BI é a função FILTER. A função FILTER é usada para filtrar linhas em uma tabela com base em uma condição específica.
+
+Vamos supor que temos uma tabela de vendas chamada "Sales" com colunas de "Product" e "Quantity". Queremos filtrar apenas as vendas onde a quantidade vendida é maior que 10. Podemos usar a função FILTER da seguinte forma:
+
+FilteredSales :=
+FILTER(
+    Sales,
+    Sales[Quantity] > 10
+)
+Neste exemplo, a função FILTER recebe a tabela "Sales" como o primeiro argumento e a condição Sales[Quantity] > 10 como o segundo argumento. A função FILTER retornará uma nova tabela contendo apenas as linhas onde a quantidade vendida é maior que 10.
+
+Essa é apenas uma maneira simples de usar a função de tabela FILTER. Existem muitas outras funções de tabela disponíveis no Power BI que podem ser combinadas e aninhadas para realizar cálculos mais avançados e manipular conjuntos de dados de forma mais sofisticada.

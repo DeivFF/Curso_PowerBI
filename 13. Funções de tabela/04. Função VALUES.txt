@@ -1,0 +1,17 @@
+A função VALUES() é uma função que é utilizada para retornar uma tabela contendo os valores únicos de uma coluna ou colunas específicas de uma tabela. Essa função é útil quando você deseja extrair os valores distintos de uma coluna para análises mais detalhadas ou para criar medidas baseadas nesses valores únicos.
+
+A sintaxe básica da função VALUES() é a seguinte:
+
+VALUES(<table_name_or_column_name>)
+
+Suponhamos que haja uma tabela chamada "Vendas" com colunas como "Data" e "Faturamento", além de possíveis outras colunas. E desejamos calcular a média de faturamento por mês/ano, podemos utilizar as funções VALUES() e AVERAGEX(), pode-se criar uma medida DAX da seguinte forma:
+
+Média_Faturamento_MêsAno = 
+AVERAGEX(
+    VALUES(Vendas[Ano-Mês]),  
+    CALCULATE(
+        SUM(Vendas[Faturamento])
+    )
+)
+
+Neste exemplo, presume-se a existência de uma coluna "Data" na tabela "Vendas" e que já foi criada uma coluna calculada denominada "Ano-Mês" que concatena o ano e o mês. A função VALUES() é empregada para obter os valores exclusivos da coluna "Ano-Mês". A função AVERAGEX() então calcula a média do faturamento para cada valor exclusivo de "Ano-Mês".

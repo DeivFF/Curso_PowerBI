@@ -1,0 +1,15 @@
+A função RELATED é uma função utilizada em ferramentas como o Power BI para buscar valores de uma tabela relacionada com base em uma relação existente entre as tabelas.
+
+A sintaxe básica da função é a seguinte:
+
+RELATED(tabela_relacionada[coluna_relacionada])
+
+Aqui, "tabela_relacionada" é a tabela à qual a tabela atual está relacionada e "coluna_relacionada" é a coluna da tabela relacionada da qual desejamos buscar valores.
+
+Por exemplo, se tivermos duas tabelas relacionadas, como "Clientes" e "Pedidos", onde cada pedido está associado a um cliente, e quisermos obter o nome do cliente para cada pedido, poderíamos usar a função RELATED da seguinte maneira:
+
+NomeCliente = RELATED(Clientes[Nome])
+
+Neste exemplo, estamos buscando o nome do cliente relacionado à tabela "Pedidos" na tabela "Clientes".
+
+A função RELATED é especialmente útil quando precisamos acessar dados de tabelas relacionadas em nosso modelo de dados. Ela nos permite buscar informações de outras tabelas sem a necessidade de mesclar explicitamente essas tabelas em uma única tabela no modelo de dados. Isso facilita a criação de cálculos e análises que envolvem dados de múltiplas tabelas.

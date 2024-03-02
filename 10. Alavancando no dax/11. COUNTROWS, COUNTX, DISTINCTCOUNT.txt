@@ -1,0 +1,49 @@
+A função COUNTROWS é utilizada para contar o número de linhas em uma tabela ou em uma expressão de tabela. Essa função retorna um número inteiro que representa a contagem de linhas na tabela especificada.
+
+A sintaxe básica da função é a seguinte:
+
+COUNTROWS(tabela)
+onde "tabela" é a tabela da qual desejamos contar as linhas.
+
+Vamos dar um exemplo prático. Suponha que haja uma tabela chamada Vendas e a intenção seja contar quantas linhas ela possui. A função COUNTROWS seria utilizada da seguinte forma:
+
+TotalLinhasVendas = COUNTROWS(Vendas)
+
+Agora, se a intenção for contar as linhas apenas para um subconjunto da tabela com base em alguma condição, podem ser utilizadas funções adicionais para criar uma expressão de tabela. Por exemplo, para contar apenas as linhas em que o valor da coluna "Quantidade" seja maior que 10, a seguinte abordagem seria adotada:
+
+TotalLinhasQuantidadeMaiorQue10 = COUNTROWS(FILTER(Vendas, Vendas[Quantidade] > 10))
+
+Neste exemplo, a função FILTER é empregada para criar uma tabela temporária contendo apenas as linhas que atendem à condição especificada (Quantidade > 10). Em seguida, a função COUNTROWS conta o número de linhas nessa tabela filtrada.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+A função DISTINCTCOUNT é utilizada no Power BI e em outras ferramentas de análise de dados. Essa função é projetada para contar o número distinto de valores em uma coluna ou expressão de coluna.
+
+A sintaxe básica da função é a seguinte:
+
+DISTINCTCOUNT(tabela[coluna])
+
+onde "tabela" é a tabela contendo a coluna da qual você deseja contar os valores distintos, e "coluna" é a coluna específica para a qual você deseja contar os valores únicos.
+
+Vamos considerar um exemplo prático. Suponha que você tenha uma tabela chamada Vendas com uma coluna chamada Produto e deseje contar quantos produtos únicos foram vendidos. Você usaria a função DISTINCTCOUNT da seguinte maneira:
+
+ContagemProdutosUnicos = DISTINCTCOUNT(Vendas[Produto])
+
+Essa expressão retornaria o número de produtos distintos na coluna Produto da tabela de vendas.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+A função COUNTX é usada para contar o número de linhas em uma tabela ou em uma expressão de tabela que atende a uma condição especificada.
+
+A sintaxe básica da função é a seguinte:
+
+COUNTX(tabela, expressão)
+onde "tabela" é a tabela na qual você deseja contar as linhas e "expressão" é a condição que deve ser atendida para que uma linha seja contada.
+
+Vamos considerar um exemplo prático. Suponha que você tenha uma tabela chamada Vendas e deseje contar o número de vendas em que o valor da coluna "Quantidade" é maior que 5. Você usaria a função COUNTX da seguinte maneira:
+
+ContagemVendasQuantidadeMaiorQue5 = COUNTX(Vendas, IF(Vendas[Quantidade] > 5, 1, 0))
+
+Neste exemplo, a expressão dentro da função COUNTX usa a função IF para atribuir o valor 1 às linhas em que a condição (Quantidade > 5) é verdadeira e 0 às linhas em que a condição é falsa. A função COUNTX então conta o número total de 1s, que representa o número de linhas que atendem à condição.
+
+A função COUNTX é útil quando você precisa contar linhas com base em condições específicas e pode ser aplicada em diversos contextos de análise de dados.

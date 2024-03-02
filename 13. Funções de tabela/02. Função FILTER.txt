@@ -1,4 +1,4 @@
-A função FILTER no DAX (Data Analysis Expressions) do Power BI é uma função de tabela que permite filtrar linhas com base em uma condição específica. Ela é usada para restringir as linhas de uma tabela com base em critérios definidos, resultando em uma nova tabela filtrada. Aqui estão algumas informações importantes sobre a função FILTER:
+A função FILTER é uma função de tabela que permite filtrar linhas com base em uma condição específica. Ela é usada para restringir as linhas de uma tabela com base em critérios definidos, resultando em uma nova tabela filtrada. Aqui estão algumas informações importantes sobre a função FILTER:
 
 Sintaxe:
 
@@ -7,8 +7,8 @@ FILTER(<tabela>, <condição>)
 <tabela>: A tabela da qual se deseja filtrar as linhas.
 <condição>: A expressão lógica que determina quais linhas serão incluídas na tabela resultante.
 
-
 A função FILTER itera sobre cada linha da tabela de entrada, avaliando a condição especificada.
+
 Se a condição for verdadeira para uma determinada linha, essa linha é incluída na tabela resultante. Caso contrário, é excluída. O resultado é uma tabela que contém apenas as linhas que atendem à condição.
 
 Supondo que temos uma tabela chamada 'Product' com colunas como 'Brand' e 'Color', e uma tabela de vendas chamada 'Sales' com colunas como 'Quantity' e 'Net Price'. Se quisermos calcular as vendas de produtos vermelhos, podemos usar a função FILTER da seguinte maneira:
@@ -21,6 +21,5 @@ SUMX (
     ),
     Sales[Quantity] * Sales[Net Price]
 )
-
 
 Neste exemplo, a função FILTER é usada para criar uma tabela temporária que contém apenas as linhas da tabela 'Sales' onde a cor do produto (relacionada à tabela 'Product') é "Red". Em seguida, a função SUMX é aplicada a essa tabela filtrada para calcular as vendas multiplicando a quantidade pelo preço líquido.
